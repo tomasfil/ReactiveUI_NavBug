@@ -1,0 +1,16 @@
+﻿<local:ReactiveMainWindow
+    x:Class="ReactiveUI_NavBug.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ReactiveUI_NavBug"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:rx="http://reactiveui.net"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <rx:RoutedViewHost Name="MainRoutedViewHost" />
+    </Grid>
+</local:ReactiveMainWindow>

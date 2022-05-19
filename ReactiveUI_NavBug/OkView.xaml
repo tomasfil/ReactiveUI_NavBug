@@ -1,0 +1,14 @@
+﻿<local:ReacitveOkView
+    x:Class="ReactiveUI_NavBug.OkView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ReactiveUI_NavBug"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Background="Green"
+    mc:Ignorable="d">
+    <Grid >
+        <TextBlock Text="This will show, because public class ReacitveOkView : ReactiveUserControl OkViewModel { } is above the main class in xaml.cs"></TextBlock></Grid>
+</local:ReacitveOkView>
